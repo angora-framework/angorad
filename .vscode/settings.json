@@ -1,0 +1,9 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/build"
+    ],
+    "files.associations": {
+        "cmd_options.h": "c"
+    }
+}

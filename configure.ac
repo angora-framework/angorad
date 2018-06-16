@@ -1,5 +1,5 @@
 AC_INIT([angorad], [1.0], [zachdeibert@gmail.com])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign subdir-objects])
 
 AC_PROG_CC
 AC_CHECK_PROG([CPYC], [cpyc], [cpyc], [:])
